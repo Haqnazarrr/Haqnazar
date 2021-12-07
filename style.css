@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    align-items: center;
+    /* grid-gap: 1px;   */
+    width: 303px;  
+    font-weight: bolder;
+    border-radius: 6px;
+    margin-top: 25%;
+}
+.item {
+    /* text-shadow: 5px 5px 5px rgb(63, 62, 62); */
+    background-color: rgb(2, 0, 20);
+    border: 1px solid rgb(7, 0, 37);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 3px; */
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.item:active {
+    background-color: rgb(27, 36, 114);
+    color: white;
+    font-size: 40px;
+}
+.input {
+    font-weight: bolder;
+    border: 10px solid  rgb(2, 0, 20);
+    grid-column: 1/5;
+    height: 80px;
+    text-align: right !important;
+    display: block !important;
+    background-color: rgb(2, 0, 20);
+}
+.equal {
+    grid-column: 4/5;
+    background-color: rgb(255, 30, 0);
+    font-size: 35px;
+}
+.clean {
+    background-color: rgb(255, 38, 0);
+}
+.ildiz {
+    color: rgb(255, 21, 0);
+    font-size: 25px;
+}
+.back {
+    color: rgb(255, 21, 0);
+}
+.protsent {
+    color: rgb(255, 21, 0);
+}
+.bulish {
+    color: rgb(255, 21, 0);
+}
+.kupayt {
+    color: rgb(255, 21, 0);
+}
+.ayir {
+    color: rgb(255, 21, 0);
+}
+.plus {
+    color: rgb(255, 21, 0);
+}
+.kvadrat {
+    color: rgb(255, 21, 0);
+}
